@@ -25,3 +25,12 @@ img {
   text-decoration: none;
   color: var(--main-bcgrnd-color);
 }
+/* BODY */
+body {
+  font-family: var(--main-font);
+  background-color: var(--main-bcgrnd-color);
+  color: var(--font-heading-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+}

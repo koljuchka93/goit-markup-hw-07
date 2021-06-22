@@ -1,37 +1,6 @@
 /* BASE RESET */
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 /* DIV Class = CONTAINER center content */
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-/* hide checkbox */
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
 /* BODY */
-body {
-  font-family: var(--main-font);
-  background-color: var(--main-bcgrnd-color);
-  color: var(--font-heading-color);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  margin: 0 auto;
-}
 
 /* HEADER */
 .header {
@@ -176,32 +145,7 @@ body {
   text-transform: uppercase;
   color: var(--main-bcgrnd-color);
 }
-/* MODAL BUTTON */
-.modal-btn {
-  height: 50px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: var(--main-bcgrnd-color);
-  background: var(--font—btn-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 10px 30px;
-  border: 1px;
-  animation-duration: 2000ms;
-  animation-iteration-count: 1;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  background: var(--btn-click-on-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
+
 /* PORTFOLIO - BUTTON */
 .btn-list {
   display: flex;

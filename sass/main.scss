@@ -10,6 +10,17 @@
 // COMPONENTS
 @import "./components/modal-btn";
 @import "./components/social-links-list";
+@import "./components/backdrop";
+@import "./components/modal-btn";
+@import "./components/modal-form";
+@import "./components/modal-window";
+
 // LAYOUT
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/hero";
+@import "./layout/footer";
 
 // PORTFOLIO
+@import "./layout/portfolio-btn";
+@import "./layout/portfolio-gallery";

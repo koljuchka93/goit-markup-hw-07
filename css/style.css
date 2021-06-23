@@ -1,7 +1,11 @@
 /* BASE RESET */
+
 /* DIV Class = CONTAINER center content */
+
 /* BODY */
+
 /* HEADER */
+
 /* MAIN CONTENT */
 
 /* SECTION ONE - HERO */
@@ -11,197 +15,13 @@
 /* END SECTION ONE - HERO */
 
 /* SECTION TWO - OUR WORK */
-.our-work {
-  padding-bottom: 0;
-}
-.our-work-list {
-  display: flex;
-}
-/* li */
-.our-work-list-item {
-  width: 270px;
-}
-.our-work-list-item:not(:first-child) {
-  margin-left: 30px;
-}
-/* icons */
-.our-work-icon-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 270px;
-  height: 120px;
-  background: var(--background-icon-color);
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-.our-work-icon {
-  width: 70px;
-  height: 70px;
-}
-/* end icons */
-.our-work-list-item-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--font-heading-color);
-  margin-bottom: 10px;
-}
-.our-work-list-item-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  line-height: 1.714;
-  /* or 171% */
-  color: var(--font-paragraph-color);
-}
-
-/* OUR WORK IMAGES */
-.our-work-team-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--font-heading-color);
-  margin-bottom: 50px;
-}
-/* ul */
-.our-work-imgs {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: -30px;
-  margin-top: -30px;
-}
-/* li */
-.our-work-imgs-item {
-  margin-left: 30px;
-  margin-top: 30px;
-}
-/* div (img and p) */
-.our-work-label {
-  position: relative;
-}
-/* p */
-.our-work-title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-bcgrnd-color);
-  background-color: rgba(47, 48, 58, 0.8);
-}
-/* END OUR WORK IMAGES */
-/* END SECTION TWO - OUR WORK */
 
 /* PORTFOLIO - SECTION TWO - IMAGES GALLERY */
 
 /* SECTION THREE - TEAM */
-.team {
-  background-color: var(--team-bcrnd-color);
-}
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: -30px;
-}
-.team-list-item {
-  flex-basis: calc((100% - 120px) / 4);
-  margin-right: 30px;
-  margin-top: 30px;
-  background-color: var(--main-bcgrnd-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.card {
-  padding: 30px;
-}
-.team-list-item-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.188;
-  text-align: center;
-  color: var(--font-heading-color);
-  margin-bottom: 10px;
-}
-.team-list-item-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  color: var(--font-paragraph-color);
-  margin-bottom: 16px;
-}
-/* icons */
-/* li */
-
-/* END SECTION THREE - TEAM */
 
 /* SECTION FOUR - ICONS TEAM */
-/* div */
-/* .icons-team-div {} */
-/* h2 */
-.icons-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-}
-/* ul */
-.icons-team-ulist {
-  display: flex;
-}
-/* li */
-.icons-team-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-/* a */
-.icon-team-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-  background-color: transparent;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-team-list-link:hover,
-.icon-team-list-link:focus {
-  border: 1px solid var(--font—btn-accent-color);
-}
-.group-team-icon {
-  fill: var(--social-icon-main-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-team-list-link:hover .group-team-icon,
-.icon-team-list-link:focus .group-team-icon {
-  fill: var(--font—btn-accent-color);
-}
-/* END SECTION FOUR - ICONS TEAM */
 
 /* FOOTER */
+
 /* MODAL WINDOW */

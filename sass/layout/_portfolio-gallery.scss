@@ -60,11 +60,13 @@
   overflow-y: scroll;
   transform: translateY(100%);
   transition: transform 250ms linear;
+
+  .gallery-item-link:hover &,
+  .gallery-item-link:focus & {
+    transform: translateY(0%);
+  }
 }
-.gallery-item-link:hover .overlay,
-.gallery-item-link:focus .overlay {
-  transform: translateY(0%);
-}
+
 /* end overlay */
 
 /* END PORTFOLIO SECTION TWO - IMAGES GALLERY */

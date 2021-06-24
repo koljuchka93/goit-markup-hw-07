@@ -1,22 +1,10 @@
-/* div */
-/* .icons-team-div {} */
-/* h2 */
-.icons-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-}
 /* ul */
 .icons-team-ulist {
   display: flex;
-}
-/* li */
-.icons-team-list-item:not(:last-child) {
-  margin-right: 30px;
+
+  .icons-team-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 /* a */
 .icon-team-list-link {
@@ -31,11 +19,13 @@
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--font—btn-accent-color);
+  }
 }
-.icon-team-list-link:hover,
-.icon-team-list-link:focus {
-  border: 1px solid var(--font—btn-accent-color);
-}
+
 .group-team-icon {
   fill: var(--social-icon-main-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -45,4 +35,3 @@
 .icon-team-list-link:focus .group-team-icon {
   fill: var(--font—btn-accent-color);
 }
-/* END SECTION FOUR - ICONS TEAM */

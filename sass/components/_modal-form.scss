@@ -15,17 +15,32 @@
   position: relative;
   display: block;
   margin-top: 4px;
+
+  .modal-form-field {
+    margin-bottom: 10px;
+  }
 }
-.modal-form-field {
-  margin-bottom: 10px;
-}
+
 .modal-form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
+
+  /* validation */
+  &:required:focus:not(:placeholder-shown):valid {
+    border-color: var(--btn-click-on-color);
+  }
+  &:required:focus:not(:placeholder-shown):invalid {
+    border-color: tomato;
+  }
+  &:focus {
+    border-color: var(--font—btn-accent-color);
+    outline: none;
+  }
 }
+
 .modal-form-icon {
   position: absolute;
   top: 50%;
@@ -37,19 +52,8 @@
   fill: var(--font-heading-color);
 }
 
-.modal-form-input:focus {
-  border-color: var(--font—btn-accent-color);
-  outline: none;
-}
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--font—btn-accent-color);
-}
-/* validation */
-.modal-form-input:required:focus:not(:placeholder-shown):valid {
-  border-color: var(--btn-click-on-color);
-}
-.modal-form-input:required:focus:not(:placeholder-shown):invalid {
-  border-color: tomato;
 }
 
 /* textarea */
@@ -61,19 +65,21 @@
   border-radius: 4px;
   padding: 12px 16px;
   margin-top: 4px;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+  &:focus {
+    outline: none;
+    border-color: var(--font—btn-accent-color);
+  }
 }
-.modal-form-message::placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-.modal-form-message:focus {
-  outline: none;
-  border-color: var(--font—btn-accent-color);
-}
-/* checkbox */
+
+/* checkbox ??? */
 .modal-form-checkbox-policy {
   font-weight: 400;
   font-size: 14px;
@@ -122,11 +128,11 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 30px;
+
+  &:hover,
+  &:focus {
+    background: var(--btn-click-on-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }
-.modal-form-btn:hover,
-.modal-form-btn:focus {
-  background: var(--btn-click-on-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-/* END MODAL WINDOW */

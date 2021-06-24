@@ -2,10 +2,12 @@
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+
+  .btn-list-item {
+    margin-right: 8px;
+  }
 }
-.btn-list-item {
-  margin-right: 8px;
-}
+
 .btn-list-item-prtf {
   height: 38px;
   font-family: "Roboto", sans-serif;
@@ -21,16 +23,16 @@
   border: 1px solid var(--main-bcgrnd-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-list-item-prtf:hover,
-.btn-list-item-prtf:focus {
-  cursor: pointer;
-  color: var(--main-bcgrnd-color);
-  background: var(--font—btn-accent-color);
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    color: var(--main-bcgrnd-color);
+    background: var(--font—btn-accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
 }
 
 /* END PORTFOLIO BUTTON */

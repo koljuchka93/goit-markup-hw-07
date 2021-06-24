@@ -6,9 +6,6 @@
 }
 
 /* dynamic icon */
-.team-social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
 .team-social-list-item-link {
   display: flex;
   justify-content: center;
@@ -37,4 +34,7 @@
   .team-social-list-item-link:focus & {
     fill: var(--main-bcgrnd-color);
   }
+}
+.team-social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
